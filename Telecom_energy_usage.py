@@ -2,7 +2,6 @@
 # Batches are processed wihtin a loop, and latency, throughput, and cost aer calculated for each batch.
 # This code uses batch size of 5, but you can adjust the batch size to fit your requirements
 #
-#
 ################################################################################
 
 import numpy as np
