@@ -1,3 +1,10 @@
+# This code processes data in batches at regular intervals, allowing for continous batching.
+# Batches are processed wihtin a loop, and latency, throughput, and cost aer calculated for each batch.
+# This code uses batch size of 5, but you can adjust the batch size to fit your requirements
+#
+#
+################################################################################
+
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
